@@ -12,8 +12,8 @@ from langchain.utilities import WikipediaAPIWrapper
 os.environ['OPENAI_API_KEY'] = apikey
 
 # App framework
-st.title('🦜🔗 YouTube GPT Creator')
-prompt = st.text_input('Plug in your prompt here') 
+st.title('Script Generator Bot')
+prompt = st.text_input('Type in a topic you want you want to write script about here') 
 
 # Prompt templates
 title_template = PromptTemplate(
